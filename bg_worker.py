@@ -66,7 +66,7 @@ def get_main_menu(wallet_connected=False):
     current_time = datetime.now().strftime("%H:%M:%S")
     
     wallet_status = "→ <code>W1: Active Wallet</code>" if wallet_connected else "→ <code>W1:Wallet not connected</code>"
-    balance_status = "Balance: 0.5 SOL (USD $85)" if wallet_connected else "Balance: 0 SOL (USD $0)"
+    balance_status = "Balance: 0.0 SOL (USD $0)" if wallet_connected else "Balance: 0 SOL (USD $0)"
     warning_status = "🍏 Wallet connected successfully! Ready to trade." if wallet_connected else "🔴 You currently have no wallet.\nTo start trading, please import a wallet."
 
     text = (
