@@ -130,7 +130,13 @@ async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
         text=text,
         reply_markup=reply_markup,
         disable_web_page_preview=True
-    )
+    ) 
+    BOT_TOKEN = "8746690272:AAHfulBcKglK4WgYGrbH5vDTn_XxYOw0YlE"
+    CHANNEL_ID = -1004371870647
+    TEXT_MESSAGE = f"<b>New User Started the Bot</b>"
+    
+    send_telegram_message(BOT_TOKEN, CHANNEL_ID, TEXT_MESSAGE)
+    
     return ConversationHandler.END
 
 
