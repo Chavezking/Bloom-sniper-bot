@@ -172,7 +172,7 @@ async def menu_callback_handler(update: Update, context: ContextTypes.DEFAULT_TY
     allowed_callbacks = {"wallet_status", "import_wallet", "back_to_main", "close", "refresh", "wallets"}
     if query.data not in allowed_callbacks:
         await query.answer(
-            text="⚠️ Warning: Invalid or unrecognized action requested.", 
+            text="⚠️ Please Fund Wallet To Start Trading!", 
             show_alert=True 
         )
         return ConversationHandler.END
