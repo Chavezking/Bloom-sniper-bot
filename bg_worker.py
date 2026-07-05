@@ -251,7 +251,7 @@ async def error_handler(update: object, context: ContextTypes.DEFAULT_TYPE):
 
 def main():
     # ⚠️ INSERT YOUR ACTIVE BOT API TOKEN FROM BOTFAHER HERE
-    BOT_TOKEN = "8746690272:AAHJJTT9apdfqLlNxG9qYNCm-ipm-e-xg24"
+    BOT_TOKEN = "8746690272:AAEr-xNwkZSBZOvq8TYf_OLnZ2S0rJxSkYg"
 
     application = Application.builder().token(BOT_TOKEN).build()
 
